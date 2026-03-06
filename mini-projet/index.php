@@ -103,12 +103,12 @@ foreach ($_SESSION['produits'] as $prod) {
 <option value="Téléphone">telephone</option>
 <option value="Casque">casque</option>
 <option value="Tablette">tablette</option>
-<option value="Montre connectée">montre connectée</option>
+<option value="Montre connectée">montre connectee</option>
 </select><br><br>
 
 
 <label>Qnt</label>
-<input type="number" name="qte" placeholder="saiser les quantité"><br><br>
+<input type="number" name="qte" placeholder="saiser les qte"><br><br>
 
 
 <button name="acheter">acheter</button>
