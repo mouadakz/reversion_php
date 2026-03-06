@@ -3,7 +3,7 @@ session_start();
 
 if (!isset($_SESSION['achats']) || empty($_SESSION['achats'])) {
     
-    echo "<br><a href='script.php'>Retour</a>";
+    echo "<br><a href='index.php'>Retour</a>";
     exit;
 }
 
@@ -41,4 +41,4 @@ foreach ($_SESSION['achats'] as $achat) {
 </table>
 
 <br>
-<a href="script.php">Retour</a>
+<a href="index.php">Retour</a>
